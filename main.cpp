@@ -1,6 +1,9 @@
 #include <iostream>
 
+using namespace std;
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    int numA = 1;
+    int numB = 2;
+    std::cout << "Hello, World!" << std::endl<<numA*numB<<endl;
     return 0;
 }
